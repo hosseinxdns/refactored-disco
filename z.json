@@ -1,0 +1,30 @@
+{
+  "inbounds": [
+    {
+      "listen": "0.0.0.0",
+      "port": 25019,
+      "protocol": "vless",
+      "settings": {
+        "clients": [
+          {
+            "id": "492f8b68-81ac-4760-83d7-b095706eea88"
+          }
+        ],
+        "decryption": "none"
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "xhttpSettings": {
+          "path": "/",
+          "host": ""
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "tag": "direct"
+    }
+  ]
+}
